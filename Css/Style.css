@@ -9,7 +9,7 @@
     --gray-color: #686868;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -148,20 +148,16 @@ img {
     display: block;
 }
 
+.navbar .logo img.light-img {
+    display: none;
+}
+
 .navbar .logo img.black-img {
     display: block;
 }
 
 .navbar.scrolled .logo img.black-img {
     display: block;
-}
-
-.navbar .logo img.light-img {
-    display: none;
-}
-
-.navbar.scrolled .logo img.light-img {
-    display: none;
 }
 
 .navbar .links {
@@ -172,7 +168,6 @@ img {
     font-size: 18px;
     transition: color 0.4s ease-in-out;
     width: 100%;
-    background-color: white;
     padding-block: 1rem;
     justify-content: end;
 }
@@ -233,6 +228,12 @@ img {
 
 .hero .fs-22 {
     font-size: 22px;
+}
+
+.hero .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 .hero .button-group button {

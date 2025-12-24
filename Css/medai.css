@@ -1,5 +1,3 @@
-
-
 @media screen and (min-width: 768px) {
 
     /* General Classes */
@@ -28,18 +26,14 @@
         background-color: var(--white-color);
     }
 
-    /* .navbar .links .nav-link.active {
-        color: var(--off-White-color);
-    } */
+
 
 
     .navbar.scrolled .logo img.black-img {
         display: block;
     }
 
-    .navbar .container {
-        flex-wrap: nowrap;
-    }
+
 
 
 
@@ -63,13 +57,39 @@
         display: none;
     }
 
+    .navbar {
+        position: fixed;
+        background-color: transparent;
+    }
+
+    .navbar .container {
+        flex-wrap: nowrap;
+    }
+
     .navbar .links {
         display: flex;
         flex-direction: row;
         gap: 2rem;
+        color: var(--white-color);
+    }
+
+    .navbar .links .nav-link.active {
+        color: var(--off-White-color);
     }
 
     .hero h1 {
         font-size: 76px;
+    }
+
+    .navbar .logo img.light-img {
+        display: block;
+    }
+
+    .navbar .logo img.black-img {
+        display: none;
+    }
+
+    .navbar.scrolled .logo img.light-img {
+        display: none;
     }
 }
